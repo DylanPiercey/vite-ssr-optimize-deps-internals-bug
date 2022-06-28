@@ -1,0 +1,15 @@
+{
+  "name": "vite-ssr-bundle-issue",
+  "version": "1.0.0",
+  "devDependencies": {
+    "vite": "^3.0.0-beta.5"
+  },
+  "private": true,
+  "scripts": {
+    "build": "vite build --ssr src/index.js --outDir dist/server",
+    "dev": "node --enable-source-maps index.js",
+    "dev:inspect": "node --inspect --enable-source-maps index.js",
+    "start": "node --enable-source-maps index.js"
+  },
+  "type": "module"
+}
